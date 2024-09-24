@@ -25,7 +25,7 @@ const App = () => {
 
   // Call the backend to diagnose malaria based on symptoms
   const fetchMalariaDiagnosis = async (symptoms) => {
-    const response = await fetch("http://malariachat.onrender.com/api/diagnose/", {
+    const response = await fetch("https://malariachat.onrender.com/api/diagnose/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
